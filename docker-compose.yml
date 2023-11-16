@@ -1,0 +1,8 @@
+#   docker-compose up  --no-deps --build todolist-app
+version: '3'
+services:
+  todolist-app:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
